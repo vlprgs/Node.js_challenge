@@ -17,7 +17,7 @@ let read = (filePath) => {
     });
 }
 
-let hashText = (text) => {
+let hashText = (text) => { 
     hash = crypto.createHmac('sha256', text).digest('hex');
     console.log(hash);
 }
